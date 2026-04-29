@@ -1,6 +1,12 @@
 package main
 
+import "go_learn/type/slice/stack"
+
 func main() {
+	stack.StackLearn()
+
+	stack.LinkedListStackTest()
+
 	// 声明一个切片
 	var s []int
 	println(s)    // 输出: []
